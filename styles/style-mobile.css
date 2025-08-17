@@ -1,0 +1,171 @@
+
+
+@media (max-width: 435px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .spots {
+        display: none !important;
+    }
+
+    .nav-hero {
+        & .nav {
+            padding: 0 !important;
+            margin-top: 0 !important;
+            background-color: white !important;
+        }
+
+        & .nav-item{
+            text-align: center !important;
+        }
+
+        & .hero{
+            padding: 30% 5%;
+
+            & h1{
+                font-size: 40px;
+            }
+
+            & p{
+                font-size: 18px;
+            }
+
+            & button{
+                padding: 3% 2%;
+                width: 100% !important;
+            }
+        
+        }
+    }
+
+    #upcomingEvents{
+
+        & h2{
+            font-size: 32px;
+        }
+
+        & p{
+            font-size: 18px;
+            font-weight: 500;
+            color: #071336;
+        }
+
+        & .perks-container{
+
+            & .perk{
+                padding: 3%;
+
+                & h4{
+                    font-size: 24px;
+                }
+
+                & p{
+                    font-size: 18px;
+
+                    & span{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    #events{
+        & .title{
+            font-size: 32px;
+        }
+
+        & .card{
+
+            & .date,
+            & .time{
+                font-size: 20px;
+            }
+
+            & h3{
+                font-size: 24px;
+            }
+
+            & .speakers{
+                font-size: 20px;
+            }
+
+            & .name{
+                font-size: 18px;
+            }
+
+            & .position{
+                font-size: 14px;
+            }
+
+            & button{
+                font-size: 18px;
+                padding: 3%;
+                margin-top: 5% !important;
+            }
+
+            & .end-text{
+                font-size: 20px;
+            }
+        }
+    }
+
+    #whatsNext{
+        & h2{
+            font-size: 32px;
+        }
+
+        & p{
+            font-size: 18px;
+
+            & span{
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+
+        button{
+            padding: 3% 2%;
+            font-size: 18px;
+            font-weight: 700;
+            width: 100% !important;
+        }
+
+        & span{
+            font-size: 18px;
+        }
+    }
+
+    #questions{
+        padding: 5% 0;
+        background-image: url('../images/questions-bg.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        & .left-side{
+            & h2{
+                font-size: 32px;
+            }
+
+            & p{
+                font-size: 18px;
+            }
+
+            & h6{
+                font-size: 20px;
+            }
+
+            & .email{
+                font-size: 20px;
+            }
+        }
+
+        & .right-side{
+            display: flex;
+            justify-content: center;
+            margin-top: 5% !important;
+        }
+    }
+}
