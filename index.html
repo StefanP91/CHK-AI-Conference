@@ -36,18 +36,87 @@
 
     <body class="manrope-regular">
 
-        <!-- on page load pop up -->
+        <!-- Sponsorship Form -->
 
-        <!-- <div class="modal modal-load fade" id="myModal">
+        <div class="modal modal-load fade" id="sponsorshipModal">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         
+                        <form method="POST" action="https://akoskarova.activehosted.com/proc.php" id="_form_992_" class="_form _form_992 _inline-form  _dark" novalidate data-styles-version="5">
+                            <input type="hidden" name="u" value="992" />
+                            <input type="hidden" name="f" value="992" />
+                            <input type="hidden" name="s" />
+                            <input type="hidden" name="c" value="0" />
+                            <input type="hidden" name="m" value="0" />
+                            <input type="hidden" name="act" value="sub" />
+                            <input type="hidden" name="v" value="2" />
+                            <input type="hidden" name="or" value="916920e18ebe01f1981736cac241d4f0" />
+                            <div class="_form-content">
+                                <div class="_form_element _x94224881 _full_width _clear" >
+                                <title class="_form-title">
+                                    Request a Sponsorship Package
+                                </title>
+                                </div>
+                                <div class="_form_element _x04484577 _full_width _clear" >
+                                <div class="_html-code">
+                                    <p>
+                                    Please fill out the form below to submit your sponsorship request. Our team will review your application and follow up with you shortly.
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="_form_element _x58311241 _full_width " >
+                                <label for="fullname" class="_form-label">
+                                    Full Name<span class="field-required">
+                                    *
+                                </span>
+                                </label>
+                                <div class="_field-wrapper">
+                                <input type="text" id="fullname" name="fullname" placeholder="Type your name" required/>
+                                </div>
+                            </div>
+                            <div class="_form_element _x13430616 _full_width " >
+                                <label for="email" class="_form-label">
+                                Email<span class="field-required">
+                                *
+                                </span>
+                            </label>
+                            <div class="_field-wrapper">
+                                <input type="text" id="email" name="email" placeholder="Type your email" required/>
+                            </div>
+                            </div>
+                            <div class="_form_element _x08277465 _full_width " >
+                            <label for="phone" class="_form-label">
+                                Phone<span class="field-required">
+                                *
+                            </span>
+                            </label>
+                            <div class="_field-wrapper">
+                            <input type="text" id="phone" name="phone" placeholder="Type your phone number" required/>
+                            </div>
+                            </div>
+                            <label for="sms_consent" class="sms_consent_checkbox">
+                            <input type="checkbox" id="sms_consent" name="sms_consent" required />
+                            <div class="sms_consent_message">
+                            By submitting this form and signing up for texts, you consent to receive marketing text messages (e.g. promos, cart reminders) from [Your Company Name] at the number provided. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP.
+                            </div>
+                            </label>
+                            <div class="_button-wrapper _full_width">
+                            <button id="_form_992_submit" class="_submit" type="submit">
+                            Submit
+                            </button>
+                            </div>
+                            <div class="_clear-element">
+                            </div>
+                            </div>
+                            <div class="_form-thank-you" style="display:none;">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         
         <header>
            
@@ -181,17 +250,17 @@
                         <h1>Expand to US + AI Conference 2025</h1>
 
                         <div class="d-flex flex-column flex-md-row justify-content-center">
-                            <div class="detail d-flex flex-column flex-md-row gap-2">
+                            <div class="detail d-flex align-items-center justify-content-center gap-2">
                                 <img src="images/hero-location-icon.svg" alt="location-icon">
                                 <p>Swiss Diamond Hotel, Prishtina</p>
                             </div>
 
-                            <div class="detail d-flex flex-column flex-md-row gap-2">
+                            <div class="detail d-flex align-items-center justify-content-center gap-2">
                                 <img src="images/hero-calendar-icon.svg" alt="calendar-icon">
                                 <p>Thursday, October 16, 2025</p>
                             </div>
 
-                            <div class="detail d-flex flex-column flex-md-row gap-2">
+                            <div class="detail d-flex align-items-center justify-content-center gap-2">
                                 <img src="images/hero-time-icon.svg" alt="time-icon">
                                 <p>09:00 – 17:30</p>
                             </div>
@@ -313,7 +382,7 @@
                         <p>Learn from industry experts and thought leaders</p>
                     </div>
 
-                    <div class="row g-3">
+                    <div class="row g-3 d-none d-md-flex">
                         <div class="col-md-4">
                             <div class="card">
                                 <img src="images/featured-speakers-keith-img.png" alt="keith-img" class="card-img-top">
@@ -370,6 +439,17 @@
                         </div>
 
                         <div class="col-md-4">
+                            <div class="card">
+                                <img src="images/featured-speakers-arber-img.png" alt="arber-img" class="card-img-top">
+
+                                <div class="card-body">
+                                    <h6>Arber Berisha</h6>
+                                    <p>Project Manager at Native Teams</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 offset-md-4">
                             <div class="card more-speakers">
                                 <img src="images/featured-speakers-microphone-icon.svg" alt="speakers-microphone-icon">
                                 <h6>More Speakers</h6>
@@ -377,6 +457,85 @@
                             </div>
                         </div>            
                     </div>
+
+                    <!-- MOBILE SLIDER -->
+                     <div class="slider-container-speakers d-block d-md-none">
+                        <div class="slider-speakers">
+                            <div class="slide-speaker">
+                                 <div class="card">
+                                    <img src="images/featured-speakers-keith-img.png" alt="keith-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Keith A. Carswell</h6>
+                                        <p>Director for Economic Innovation & Development, City of Miami</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card">
+                                    <img src="images/featured-speakers-renatto-img.png" alt="renatto-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Renatto Garro</h6>
+                                        <p>CTO Corporate & Digital Natives @ Google | Co-Founder @ Nebulai</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card">
+                                    <img src="images/featured-speakers-arijana-img.png" alt="arijana-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Arijana Koskarova</h6>
+                                        <p>Forbes under 30 I Co-founder at Creative Hub </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card">
+                                    <img src="images/featured-speakers-halabaku-img.png" alt="halabaku-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Shkumbin Halabaku</h6>
+                                        <p>AI & Analytics Expert, Data Analyst at IPKO Telecommunications</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card">
+                                    <img src="images/featured-speakers-lavdrim-img.png" alt="lavdrim-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Lavdrim Recica</h6>
+                                        <p>Lead of Talent Management & Retention, Gjirafa Inc.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card">
+                                    <img src="images/featured-speakers-arber-img.png" alt="arber-img" class="card-img-top">
+
+                                    <div class="card-body">
+                                        <h6>Arber Berisha</h6>
+                                        <p>Project Manager at Native Teams</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-speaker">
+                                <div class="card more-speakers">
+                                    <img src="images/featured-speakers-microphone-icon.svg" alt="speakers-microphone-icon">
+                                    <h6>More Speakers</h6>
+                                    <p>To be announced soon!</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
                 </div>
             </section>
 
@@ -397,7 +556,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>09:00 – 09:30</span>
+                                <div class="time">09:00 – 09:30</div>
 
                                 <div class="vstack">
                                     <h6>Registration & Coffee</h6>
@@ -406,7 +565,21 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>09:45 – 10:15</span>
+                                <div class="time">09:30 – 09:45</div>
+
+                                <div class="vstack">
+                                    <h6>Opening Remarks</h6>
+                                    <p>Welcome to the conference and overview of the day's agenda</p>
+
+                                    <div class="hstack gap-2">
+                                        <img src="images/agenda-white-box-icon-microphone-icon.svg" alt="microphone-icon">
+                                        <p class="blue-text">Arijana Koskarova, Co-founder at Creative Hub Kosovo</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hstack gap-2 white-box">
+                                <div class="time">09:45 – 10:15</div>
 
                                 <div class="vstack">
                                     <h6>Keynote: AI in Government – Building Kosovo's AI Future</h6>
@@ -415,7 +588,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>10:15 – 11:15</span>
+                                <div class="time">10:15 – 11:15</div>
 
                                 <div class="vstack">
                                     <h6>Special Guest Talk: Expanding Your Business to the U.S.</h6>
@@ -429,7 +602,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>11:30 – 12:30</span>
+                                <div class="time">11:30 – 12:30</div>
 
                                 <div class="vstack">
                                     <h6>Featured Talk: Building AI Agents – How to Automate Your Business</h6>
@@ -443,7 +616,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>12:30 – 13:30</span>
+                                <div class="time">12:30 – 13:30</div>
 
                                 <div class="vstack">
                                     <h6>Networking Lunch</h6>
@@ -460,7 +633,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>13:30 – 14:00</span>
+                                <div class="time">13:30 – 14:00</div>
 
                                 <div class="vstack">
                                     <h6>Panel: The Future of Education in the Age of AI</h6>
@@ -469,7 +642,7 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>14:00 – 14:30</span>
+                                <div class="time">14:00 – 14:30</div>
 
                                 <div class="vstack">
                                     <h6>Panel: Smarter Ways of Leading Teams</h6>
@@ -478,16 +651,21 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>14:30 – 15:15</span>
+                                <div class="time">14:30 – 15:15</div>
 
                                 <div class="vstack">
                                     <h6>Workshop: AI in Project Management</h6>
                                     <p>Hands-on session exploring AI tools for project management</p>
+                                
+                                    <div class="hstack gap-2">
+                                        <img src="images/agenda-white-box-icon-microphone-icon.svg" alt="microphone-icon">
+                                        <p class="blue-text">Arber Berisha, Project Manager at Native Teams</p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>15:30 – 16:00</span>
+                                <div class="time">15:30 – 16:00</div>
 
                                 <div class="vstack">
                                     <h6>Talk: AI in Analytics – The Power of Smarter Decisions</h6>
@@ -501,13 +679,21 @@
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>16:00 – 16:15</span>
+                                <div class="time">16:00 – 16:15</div>
 
-                                <h6>Closing Remarks</h6>
+                                <div class="vstack">
+                                    <h6>Closing Remarks</h6>
+                                    <p>Wrapping up the conference with key takeaways and next steps</p>
+
+                                    <div class="hstack gap-2">
+                                        <img src="images/agenda-white-box-icon-microphone-icon.svg" alt="microphone-icon">
+                                        <p class="blue-text">Arijana Koskarova, Co-founder at Creative Hub Kosovo</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="hstack gap-2 white-box">
-                                <span>16:30 – 17:30</span>
+                                <div class="time">16:30 – 17:30</div>
 
                                 <div class="vstack">
                                     <h6>🍷 Networking Happy Hour</h6>
@@ -741,9 +927,9 @@
 
                         <p class="bottom-text">Customized packages for startups, enterprises & investors</p>
 
-                        <a href="#tickets">Request Sponsorship Deck</a>
+                        <a href="#" data-bs-target="#sponsorshipModal" data-bs-toggle="modal">Request Sponsorship Deck</a>
 
-                        <div class="d-flex flex-column-flex-md-row gap-3 justify-content-center">
+                        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
                             <span class="info">📧 contact@creativehubkos.com</span>
                             <span class="info">📞 +383 49 439 797</span>
                         </div>
@@ -870,7 +1056,7 @@
                         <div class="social-media">
                             <h6>Follow Us for Updates</h6>
 
-                            <div class="d-flex flex-column flex-md-row gap-3">
+                            <div class="d-flex gap-3">
                                 <a href="https://www.facebook.com/creativehubkosovo">
                                     <img src="images/contact-us-facebook-icon.png" alt="facebook-logo">
                                 </a>

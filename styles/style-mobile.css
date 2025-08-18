@@ -9,61 +9,180 @@
         display: none !important;
     }
 
-    .nav-hero {
-        & .nav {
-            padding: 0 !important;
-            margin-top: 0 !important;
-            background-color: white !important;
-        }
+    & .nav {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        background-color: white !important;
+    }
 
-        & .nav-item{
-            text-align: center !important;
-        }
+    & .nav-item{
+        text-align: center !important;
+    }
 
-        & .hero{
-            padding: 30% 5%;
+    #hero{
+        padding: 20% 0 5% 0;
+
+        & .hero-inner{
 
             & h1{
-                font-size: 40px;
+                font-size: 32px;
             }
 
-            & p{
+            & .detail{
+                border-right: 0;
+                border-bottom: 1px solid #E5E7EB;
+                padding-right: 0;
+                padding-left: 0;
+                padding-bottom: 3%;
+                padding-top: 3%;
+
+                & p{
+                    margin-bottom: 0;
+                    text-wrap: nowrap;
+                }
+            }
+
+            & .description{
                 font-size: 18px;
             }
 
-            & button{
-                padding: 3% 2%;
-                width: 100% !important;
+            & a{
+                padding: 3%;
+                width: 100%;
             }
-        
         }
     }
 
-    #upcomingEvents{
+    #counter{
+        & .counter-inner{
+            & #countdown {
 
-        & h2{
-            font-size: 32px;
+                & .countdown-digit {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+    #whyAttend{
+        padding: 5% 0;
+        background-color: #F0F0F0;
+
+        h1{
+            font-size: 28px;
+            margin-bottom: 7%;
         }
 
-        & p{
-            font-size: 18px;
-            font-weight: 500;
-            color: #071336;
+        & .why-attend-inner{
+
+            & .benefits-container{
+                padding: 5%;
+            }
+
+            & .blue-box{
+                padding: 5%;
+
+                & p{
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+                & h6{
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+
+            
+        }
+    }
+
+    #featuredSpeakers{
+        
+        & .intro{
+
+            & h1{
+                font-size: 28px;
+            }
         }
 
-        & .perks-container{
+        & .card{
+            background-color: #F0F0F0;
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px 0px #0000001A;
+            box-shadow: 0px 2px 4px 0px #0000001A;
+            height: 100%;
 
-            & .perk{
-                padding: 3%;
+            & h6{
+            font-size: 20px; 
+            font-weight: 700;
+            color: #0057FF;
+            }
 
-                & h4{
+            & p{
+                color: #4B5563;
+            }
+
+        }
+
+        & .more-speakers{
+            background-color: rgba(0, 87, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 5%;
+        }
+
+         & .slider-container-speakers {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+
+            & .slider-speakers {
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            & .slide-speaker {
+                flex: 0 0 100%;
+                box-sizing: border-box;
+
+            }
+
+        }
+    }
+
+    #agenda{
+
+        & .intro{
+
+            & h1{
+                font-size: 28px;
+            }
+        }
+
+        & .agenda-container{
+
+            & .morning-program,
+            & .afternoon-program{
+                & h2{
                     font-size: 24px;
                 }
 
-                & p{
-                    font-size: 18px;
+                & .white-box{
+                    & .time{
+                        border-radius: 12px;
+                        min-width: 50px !important;
+                        max-width: 70px !important;
+                        height: 100px;
+                        padding: 5%;
+                        font-size: 14px;
+                    }
 
-                    & span{
+                    & h6{
                         font-size: 18px;
                     }
                 }
@@ -71,101 +190,111 @@
         }
     }
 
-    #events{
-        & .title{
-            font-size: 32px;
+    #tickets{
+        
+        & .intro{
+            & h1{
+                font-size: 28px;
+            }
         }
 
         & .card{
 
-            & .date,
-            & .time{
-                font-size: 20px;
-            }
-
             & h3{
-                font-size: 24px;
+                font-size: 22px;
+                text-align: center;
             }
 
-            & .speakers{
-                font-size: 20px;
-            }
+            & .price-container{
+                display: flex;
+                flex-direction: column;
 
-            & .name{
-                font-size: 18px;
-            }
+                & .price{
+                    font-size: 18px;
+                }
 
-            & .position{
-                font-size: 14px;
             }
+        }
+    }
 
-            & button{
-                font-size: 18px;
+    #sponsorship{
+
+        & .intro{
+            & h1{
+                font-size: 28px;
+            }
+        }
+
+        & .white-box{
+            padding: 5%;
+
+            & a{
                 padding: 3%;
-                margin-top: 5% !important;
+                width: 100%;
             }
 
-            & .end-text{
-                font-size: 20px;
+            & .info{
+                text-align: center;
             }
         }
     }
 
-    #whatsNext{
-        & h2{
-            font-size: 32px;
-        }
+    #eventDetails{
 
-        & p{
-            font-size: 18px;
+        & .event-details-inner{
 
-            & span{
-                font-weight: 700;
-                font-size: 20px;
+            & h1{
+                font-size: 28px;
             }
-        }
 
-        button{
-            padding: 3% 2%;
-            font-size: 18px;
-            font-weight: 700;
-            width: 100% !important;
-        }
-
-        & span{
-            font-size: 18px;
-        }
-    }
-
-    #questions{
-        padding: 5% 0;
-        background-image: url('../images/questions-bg.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-
-        & .left-side{
-            & h2{
-                font-size: 32px;
+            & .detail{
+                & h6{
+                    font-size: 18px;
+                }
             }
 
             & p{
                 font-size: 18px;
+                text-align: center; 
             }
 
-            & h6{
-                font-size: 20px;
+            & a{
+                padding: 3%;
+                width: 100%;
+                text-align: center;
             }
-
-            & .email{
-                font-size: 20px;
-            }
-        }
-
-        & .right-side{
-            display: flex;
-            justify-content: center;
-            margin-top: 5% !important;
         }
     }
+
+    #contactUs{
+
+        & .contact-us-inner{
+
+            & .intro{
+                & h1{
+                    font-size: 28px;
+                }
+
+            }
+
+            & .card{
+                & h6{
+                    font-size: 18px;
+                }
+
+                & .right-side{
+                    & h6{
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            & .social-media{
+                & h6{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
 }
