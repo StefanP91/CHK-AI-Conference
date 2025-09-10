@@ -830,6 +830,37 @@ header{
         }
     }
 
+    & h2{
+        font-size: 24px;
+        font-weight: 700;
+        color: #0057FF;
+        text-align: center;
+    }
+
+    & .sponsor-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 190px;
+
+        & p{
+            color: #4B5563;
+        }
+    }
+
+    & .sponsor-box:hover{
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    & .ch-box{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
     & .white-box{
         background-color: #FFFFFF;
         border: 1px solid #E5E7EB;

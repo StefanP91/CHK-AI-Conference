@@ -225,6 +225,10 @@
             }
         }
 
+        & .ch-box{
+            width: 100%;
+        }
+
         & .white-box{
             padding: 5%;
 
